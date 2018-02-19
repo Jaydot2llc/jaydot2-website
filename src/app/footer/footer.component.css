@@ -1,0 +1,11 @@
+.menu {
+    list-style-type: none;
+}
+
+.menu > li {
+    vertical-align: middle;
+}
+
+.menu.horizontal > li, .menu > li {
+    display: table-cell;
+}

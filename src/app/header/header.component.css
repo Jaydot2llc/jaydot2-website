@@ -13,10 +13,24 @@ h1, h2, h3, h4 {
     text-rendering: optimizeLegibility;
 }
 
+div.top-bar {
+    background-image: url("https://s3.amazonaws.com/jaydot2core/website-images/top-bar-summer-background.jpg");
+    background-color: #e6e6e6;
+    padding: 3.0rem;
+}
+
 div.callout-large {
     padding: 3rem;
 }
 
 .text-center {
     text-align: center;
+}
+
+.callout {
+    margin: 0 0 1rem;
+}
+
+.callout.large {
+    padding: 3rem;
 }
