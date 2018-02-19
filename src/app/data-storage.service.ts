@@ -7,4 +7,8 @@ export class DataStorageService {
 
   constructor() { }
 
+  createUser() {
+    console.info('Creating new user...');
+  }
+
 }
