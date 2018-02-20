@@ -10,7 +10,7 @@
 
 <div class="row">
   <div class="col-md-12">
-    <form class="form-horizontal">
+    <form [formGroup]="userForm" class="form-horizontal" (ngSubmit)="onSubmit()">
       <fieldset>
       
       <!-- Form Name -->
@@ -20,7 +20,7 @@
       <div class="form-group">
         <label class="col-md-4 control-label" for="fullname">Full Name</label>  
         <div class="col-md-4">
-        <input id="fullname" name="fullname" placeholder="Please enter your full name" class="form-control input-md" type="text">
+        <input formControlName="fullname" id="fullname" name="fullname" placeholder="Please enter your full name" class="form-control input-md" type="text">
         </div>
       </div>
       
@@ -28,7 +28,7 @@
       <div class="form-group">
         <label class="col-md-4 control-label" for="email">Email</label>  
         <div class="col-md-4">
-        <input id="email" name="email" placeholder="Please enter email" class="form-control input-md" type="email">
+        <input formControlName="email" id="email" name="email" placeholder="Please enter email" class="form-control input-md" type="email">
         </div>
       </div>
       
